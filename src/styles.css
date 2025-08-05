@@ -1,0 +1,41 @@
+/* styles.css */
+.app-container {
+  min-height: 100vh;
+  padding: 40px;
+  transition: background-color 0.4s, color 0.4s;
+}
+
+.app-container.light {
+  background-color: #f7f7f7;
+  color: #222;
+}
+
+.app-container.dark {
+  background-color: #121212;
+  color: #f1f1f1;
+}
+
+.main-content {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.toggle-wrapper {
+  margin-top: 20px;
+}
+
+.toggle-btn {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  background: linear-gradient(to right, #00ffe7, #ff00f7);
+  color: white;
+  transition: transform 0.2s;
+}
+
+.toggle-btn:hover {
+  transform: scale(1.05);
+}
